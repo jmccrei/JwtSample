@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--suppress CheckTagEmptyBody -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample JWT</title>
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+    <script src="{{ asset('bundles/fosjsrouting/js/router.min.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+</head>
+<body>
+<main id="root"></main>
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>
