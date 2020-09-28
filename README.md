@@ -45,6 +45,6 @@ symfony console doctrine:schema:update --force
 // Get webpack to build
 yarn build
 
-// Start the build in server
+// Start the built-in server
 symfony server:start
 ```
