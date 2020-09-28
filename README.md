@@ -1,4 +1,6 @@
-## JWT Sample - Symfony 5.1
+## JWT Sample - Symfony 5.1, React 16.9.8, Webpack 4.41.22
+
+[DEMO Application](https://authsample.joshmccreight.com)
 
 Standard symfony install.
 
